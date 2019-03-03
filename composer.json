@@ -1,0 +1,27 @@
+{
+    "name": "szonov/dot-acl",
+    "description": "Simple ACL library for actions in dot notation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Zonov",
+            "email": "sergey@zonov.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SZonov\\DotAcl\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SZonov\\DotAcl\\Test\\": "test"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
